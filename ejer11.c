@@ -6,6 +6,19 @@ int main() {
     
     if (num < 10 || num > 99) {
         printf("El número no es de dos dígitos.\n");
+    } else {
+        int digito1 = num/ 10;
+        int digito2 = num % 10;    
+        
+        int inicio, fin;
+
+        if (digito1 < digito2) {
+            inicio = digito1;
+            fin = digito2;
+        } else {
+            inicio = digito2;
+            fin = digito1;
+        }
 
 
 
