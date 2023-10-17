@@ -13,11 +13,13 @@ int main() {
     if (num == 0) {
         con = 1;
     } else {
+        while (num > 0) {
+            con++;
+            num /= 10;
+        }
 
       }
     
-
-
 
  return 0;
 }
