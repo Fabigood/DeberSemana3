@@ -13,7 +13,8 @@ int main() {
             fact *= i;
             suma += fact;
         }
-
+         printf("La suma de los factoriales de 1 a %d es: %d\n", num, suma);
+    }
 
     return 0;
 }
