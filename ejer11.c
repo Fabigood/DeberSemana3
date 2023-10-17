@@ -19,7 +19,12 @@ int main() {
             inicio = digito2;
             fin = digito1;
         }
-
+        printf("Números en el rango: ");
+        for (int i = inicio; i <= fin; i++) {
+            printf("%d ", i);
+        }
+        printf("\n");
+    }
 
 
 
